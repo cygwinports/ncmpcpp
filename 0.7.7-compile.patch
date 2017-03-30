@@ -1,0 +1,13 @@
+status.cpp: In function ‘void {anonymous}::initialize_status()’:
+status.cpp:158:71: error: ‘setsockopt’ was not declared in this scope
+
+--- origsrc/ncmpcpp-0.7.7/src/status.cpp	2016-10-31 06:24:35.000000000 -0500
++++ src/ncmpcpp-0.7.7/src/status.cpp	2016-12-12 03:27:35.508275000 -0600
+@@ -21,6 +21,7 @@
+ #include <boost/date_time/posix_time/posix_time.hpp>
+ #include <netinet/tcp.h>
+ #include <netinet/in.h>
++#include <sys/socket.h>
+ 
+ #include "browser.h"
+ #include "charset.h"

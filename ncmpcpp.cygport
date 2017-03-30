@@ -1,0 +1,9 @@
+NAME="ncmpcpp"
+VERSION=0.7.7
+RELEASE=1
+CATEGORY="Audio"
+SUMMARY="NCurses Music Player Client (Plus Plus)"
+DESCRIPTION=
+HOMEPAGE="http://rybczak.net/ncmpcpp/"
+SRC_URI="${HOMEPAGE}/stable/ncmpcpp-${VERSION}.tar.bz2"
+#PATCH_URI="0.7.7-compile.patch"
