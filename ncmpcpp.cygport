@@ -1,10 +1,10 @@
 NAME="ncmpcpp"
-VERSION=0.7.7
-RELEASE=3
+VERSION=0.8.1
+RELEASE=1
 CATEGORY="Audio"
 SUMMARY="NCurses Music Player Client (Plus Plus)"
 DESCRIPTION="ncmpcpp is an ncurses client for MPD (Music Player Daemon),
 inspired by ncmpc."
 HOMEPAGE="http://rybczak.net/ncmpcpp/"
 SRC_URI="${HOMEPAGE}/stable/ncmpcpp-${VERSION}.tar.bz2"
-PATCH_URI="0.7.7-compile.patch"
+#PATCH_URI="0.7.7-compile.patch"
