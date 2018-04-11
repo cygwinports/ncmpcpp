@@ -1,5 +1,5 @@
 NAME="ncmpcpp"
-VERSION=0.8.1
+VERSION=0.8.2
 RELEASE=1
 CATEGORY="Audio"
 SUMMARY="NCurses Music Player Client (Plus Plus)"
